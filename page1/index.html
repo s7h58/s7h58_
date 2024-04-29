@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한국 애니</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Additional styles can be added here */
+        @keyframes slideInRight {
+            from {
+                transform: translateX(100%);
+            }
+
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        .animated-menu {
+            animation: slideInRight 0.5s ease forwards;
+        }
+    </style>
+    <style>
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+
+        .slide {
+            min-width: 100%;
+        }
+
+        .slide img {
+            width: 100%;
+
+        }
+
+        .scrollable {
+            width: 300px;
+            height: 200px;
+            overflow: auto;
+            border: 1px solid #ccc;
+        }
+
+        .custom-card {
+            border: none;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .custom-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card-body {
+            padding: 30px;
+        }
+
+        .card-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .card-text {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            border-radius: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        .footer p {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse animated-menu" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">애니메이션 (만드는중)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">극장판 (만드는중)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">짤 (만드는중)</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="slideshow-container">
+        <div class="slides">
+            <div class="slide">
+                <img src="imges/뽀로로.jpg" alt="Slide 1">
+            </div>
+            <div class="slide">
+                <img src="imges/자두.jpg" alt="Slide 2">
+            </div>
+            <div class="slide">
+                <img src="imges/검정고무신.jpg" alt="Slide 3">
+            </div>
+            <div class="slide">
+                <img src="imges/enffl.jpg" alt="Slide 4">
+            </div>
+        </div>
+    </div>
+    
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card custom-card">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZvIpGB9f-H8?si=Pwfko5x4rLm5b7Zd"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <!-- <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Card Image"> -->
+                    <div class="card-body">
+                        <h5 class="card-title">검정고무신</h5>
+                        <p class="card-text">
+                        <div class="scrollable">
+                            <h5>이영일, 이우영</h5>
+                            <p>작가의 만화 검정 고무신을 원작으로 하는 애니메이션 시리즈이다. 수입하여 더빙 후 방영했던 작품들을 제외하면 2000년대 초까지 국민 애니메이션 수준의 지위를
+                                가지고 있었던 작품으로, 원작 만화보다 접근성이 훨씬 좋았던 TV 애니메이션판이 더 저명한 편이다.</p>
+
+                            <p><img src="imges/w5Dz28ycw1n032AgrCMp1am8d8LGj1wgD3v3J7t-rpXu9RL_hOI5xHdx7nWlpptxoWY1RqFpC_MjdHrUfDBun1KIpjHxO3cDUFoP_IJ90bG6dFULim0E0fQQP7V9znZrYylxbuuRuBxSyAJmH-dAoA.svg"
+                                    alt=""></p>
+                            <!-- 중략 -->
+                        </div>
+                        </p>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card custom-card">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/X3tC8izGz0I?si=EwpUlXYjdOgmwrTz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <!-- <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Card Image"> -->
+                    <div class="card-body">
+                        <h5 class="card-title">아기공룡 둘리</h5>
+                        <p class="card-text">
+                        <div class="scrollable">
+                            <h5>  신체 나이는 8세,</h5>
+                            <p>
+                               종은 케라토사우루스아무리 봐도 에우캄베르시아 인데?. 하지만 케라토사우루스는 수각류라 둘리의 형태와 비교적 맞는 데 비해, 원작에 나오는 "둘리 엄마"는 용각류라 종이 맞지 않는다. 둘리 단행본 애장판에 실린 김수정 씨의 인터뷰에 의하면 작가의 실수라고 한다. 둘리 엄마는 브라키오사우루스인데, 포근한 엄마 이미지의 공룡을 찾다가 둘리가 케라토사우루스였다는 것을 잊어버리고 브라키오사우루스로 그렸다고 한다</p>
+                            <p><img src="imges/dWqFkGaFyut1zw5vdXAzilIyEotR_lPcwXxGxs13K6A4iP04f459HNmgJhmVDmOuoG4SqeYUpBBgK5YLRMW-PV_cBa5hj1zThSHh4ZM8KEsMbklC5J4RXJoLJEB1caubvyRzah4Lnh4CDMyleLboRQ.svg" alt=""></p>
+                            <!-- 중략 -->
+                        </div>
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card custom-card">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pmY4VaPur_8?si=JbwPMKCdDeIP17G8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <!-- <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Card Image"> -->
+                    <div class="card-body">
+                        <h5 class="card-title">안녕자두야!</h5>
+                        <p class="card-text">
+                        <div class="scrollable">
+                            <h5>운동을 잘하는 소녀</h5>
+                            <p> 자두와 동생인 인형을 좋아하는 미미와 돈에 대한 관심이 강한 승기가 난향과 술쟁이 호돌과 함께 빨간 지붕의 단독 주택에서 살아가는 작품이다. 초반부터 자전적 성향이 매우 강하고, 원작에선 해설 부분이 1인칭 시점으로 자주 서술되는 편이다. 또한 시대상이 계속 바뀌고 자전적 성향이 옅어진 옴니버스 형식인 애니메이션에선 잘 부각되지는 않으나 주인공인 자두의 내적 성장이 나온 적도 종종 있다.</p>
+                            <p><img src="imges/gaxwoZGO2YomxQkH6QLkcRg-GBDVHJM8vdYFO3qdHggZugAkNix8ravD3du_KwtWeiDG87zyKFozeH0fvxVl2Rrp13GDo0xET1nuTcJ7KhM8988-HyjK9bHpOvTynv5WHIiflYqP0qtHl_j3xqfVIg.svg" alt="">.</p>
+                            <!-- 중략 -->
+                        </div>
+                        </p>
+                     
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card custom-card">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/E0W5sJZ2d64?si=epTtBm_X8NKEhpMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    <!-- <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Card Image"> -->
+                    <div class="card-body">
+                        <h5 class="card-title">뽀롱뽀롱 뽀로로</h5>
+                        <p class="card-text">
+                        <div class="scrollable">
+                            <h5>어린 수컷 펭귄을</h5>
+                            <p> 의인화한 캐릭터로 세계 대전 기간 조종사들이 쓰고 다녔을 법한 헬멧에 방풍 고글을 쓰고 다니는 시대를 초월한 패션 감각을 가지고 있었다. 3기부터는 의상이 바뀌어서 머리를 감싸는 헬멧에 쫄쫄이로 너프되었다. 뽀로로의 고글에는 렌즈가 없다.</p>
+                            <p><img src="imges/MFHn1cw3f-MbUrmTMhAMFg5eIUG_TZvQMGXHOqU1K8THmcwFJQEapYdT9AMPCjy9LP6GtWhUl0FAdazmfYLtZbM0st2EBm7T1UIzn6z2GLi9zDGUSpyyIRCzNYVYUTa5KvvEam3T_S1O5jTDZgt6eQ.webp" alt=""></p>
+                            <!-- 중략 -->
+                        </div>
+                        </p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card custom-card">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/djxDewxXajc?si=dns1RoyUWwmx9f6C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <!-- <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Card Image"> -->
+                    <div class="card-body">
+                        <h5 class="card-title">마당을 나온 암탉 </h5>
+                        <p class="card-text">
+                        <div class="scrollable">
+                            <h5>2011년 7월 27일에</h5>
+                            <p> 개봉한 황선미가 쓴 장편 동화 마당을 나온 암탉을 원작으로 한 한국 애니메이션. 명필름과 오돌또기의 공동제작으로 감독은 한국 애니메이션 판에서 프로듀서 활동을 하다 이 작품으로 처음 감독을 맡은 오성윤. 한국과 중국 동시개봉할 예정이었으나 중국에서는 국경절 연휴를 겨냥해 9월 30일로 일정을 늦춰 개봉했다.</p>
+                           
+                            <!-- 중략 -->
+                        </div>
+                        </p>
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card custom-card">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jXpKnJhxUJA?si=DvhciRsSz_QWYS_G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <!-- <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Card Image"> -->
+                    <div class="card-body">
+                        <h5 class="card-title">파닥파닥</h5>
+                        <p class="card-text">
+                        <div class="scrollable">
+                            <h5>장편 애니메이션으로서는 </h5>
+                            <p> 이례적으로 본 영화의 제작사의 데뷔작이라고 한다. 단편으로는 《페이퍼 보이(The Paper Boy)》가 있다. 해당 단편은 신문 배달원의 이야기를 다룬 애니메이션이며, 압도적인 양의 초당 프레임이 특징이다.</p>
+                            
+                            <!-- 중략 -->
+                        </div>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card custom-card">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/P5DW3Dj0i2Q?si=6wu4OFN5Q6SieqS1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <!-- <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Card Image"> -->
+                    <div class="card-body">
+                        <h5 class="card-title">반지의 비밀일기</h5>
+                        <p class="card-text">
+                        <div class="scrollable">
+                            <h5> 반지는 아기자기 꾸미기를 좋아하고,</h5>
+                            <p> 공부보단 사랑과 우정이 더 소중한 귀엽고 깜찍한 대한민국 보통 소녀이다.
+                                응심이와 냠냠이라는 단짝 친구들과 늘 붙어다니며, 엉뚱발랄한 일들이 벌어지며 호용이라는 킹카 남자친구의 무한애정 까지 받는 대한민국에서 가장 행복한 소녀!!</p>
+                            
+                        </div>
+                        </p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card custom-card">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5zwgWTfUb9k?si=oygOIIbA8XepJB9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <!-- <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Card Image"> -->
+                    <div class="card-body">
+                        <h5 class="card-title">기기괴괴 성형수</h5>
+                        <p class="card-text">
+                        <div class="scrollable">
+                            <h5>"새로운 삶을 원하나요?"</h5>
+                            <P>
+                                지금부터 기적의 성형수 사용 방법을 알려드리겠습니다.
+                                본인의 얼굴을 거울로 확인해 보세요.
+                                사진을 찍어두셔도 좋습니다. 마지막 작별의 시간이니까요.
+                                물과 성형수를 4:1 비율로 섞은 후, 20분간 얼굴을 담가주세요.
+                                앞으로 당신의 근육과 살의 성질이 완전히 변하게 됩니다. 찰흙처럼 말이죠.
+                                겁먹지 말고…당신이 원하는 얼굴을 만들어보세요
+                                이제 당신은 새로 태어나는 겁니다. 아주 새롭게…</P>
+                            <!-- 중략 -->
+                        </div>
+                        </p>
+                      
+                    </div>
+                </div>
+            </div>
+       
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container text-center">
+            <p><img src="imges/@S7h58_.png" alt=""></p>
+            <p>&copy; 2024.4.29 Developer sohyeon 모든 출처:유튜브,나무위키, </p>
+        </div>
+    </footer>
+
+    <!-- <div class="embed-responsive embed-responsive-16by9">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/E0W5sJZ2d64?si=7xYpWMm7LoRWrKVv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div> -->
+
+    <script>
+        let slideIndex = 0;
+
+        function showSlides() {
+            const slides = document.querySelectorAll('.slide');
+            slideIndex++;
+
+            if (slideIndex >= slides.length) {
+                slideIndex = 0;
+            }
+
+            const slideWidth = slides[0].clientWidth;
+            const offset = -slideIndex * slideWidth;
+
+            document.querySelector('.slides').style.transform = `translateX(${offset}px)`;
+
+            setTimeout(showSlides, 2000); // 2초마다 슬라이드 변경
+        }
+
+        showSlides();
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
